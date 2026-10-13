@@ -1,0 +1,22 @@
+﻿PASS Corrupt source cannot replace a previously good backup
+PASS Reimport repairs missing duplicate bytes
+PASS Reimport repairs damaged duplicate bytes
+PASS Failed permanent deletion retains trash metadata
+PASS Case aliases cannot reference one Windows file twice
+PASS File metadata requires a content hash
+PASS Negative file sizes are rejected
+PASS Missing index never silently creates an empty library
+PASS Export cannot write into internal library directories
+PASS External open uses an explicit document allowlist
+PASS Stream limits apply to actual bytes, not metadata claims
+PASS Interrupted deletion before commit recovers the file
+PASS Interrupted deletion after commit finishes cleanup
+PASS Locked index rolls back staged file deletion
+PASS Locked index cannot partially commit metadata
+PASS Previous-index recovery verifies files and preserves damaged index
+PASS Previous-index recovery refuses damaged referenced files
+PASS Partial export reports successes and leaves no corrupt output
+PASS Deadline calendar day is independent of serialized timestamp
+PASS Integrity checker detects missing and damaged data
+PASS Published v1.0.0 backup restores into the revised store
+RESULT: 21 passed, 0 failed

@@ -1,0 +1,10 @@
+﻿FAIL Corrupt source cannot replace a previously good backup: 损坏文件仍被成功备份，旧备份被覆盖
+FAIL Reimport repairs missing duplicate bytes: 缺失文件被当成重复，无法重新导入修复
+FAIL Reimport repairs damaged duplicate bytes: 损坏副本未修复
+FAIL Failed permanent deletion retains trash metadata: 删除失败后文件仍在，但索引记录已丢失
+FAIL Case aliases cannot reference one Windows file twice: 大小写不同的 ID 被误当作两个文件
+FAIL File metadata requires a content hash: 无哈希附件通过了完整性校验
+FAIL Negative file sizes are rejected: 负数文件长度被接受
+FAIL Missing index never silently creates an empty library: 已有文件的资料库被当作新库，记录会被覆盖
+FAIL Export cannot write into internal library directories: 导出允许写入内部资料库目录
+RESULT: 0 passed, 9 failed

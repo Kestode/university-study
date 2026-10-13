@@ -1,0 +1,11 @@
+﻿PASS Main view binds imported files and notes
+PASS Note body search updates visible rows
+PASS Tag search updates visible rows
+PASS File type filter
+PASS Task navigation and deadline binding
+PASS Selection renders note preview
+PASS Minimum window layout retains usable file table
+PASS Unsaved editor cancel keeps window and text
+PASS Unsaved editor save-and-close commits once
+PASS Unsaved editor explicit discard does not save
+ALL 10 UI CHECKS PASSED

@@ -1,0 +1,17 @@
+﻿PASS Chinese metadata persistence
+PASS Import copy and content integrity
+PASS Content deduplication within course
+PASS Failed import leaves metadata unchanged
+PASS Notes, tags, favorite and task persistence
+PASS Full ZIP backup roundtrip, hashes and course mappings
+PASS Repeated restore merges courses and appends copies
+PASS Export filenames avoid overwriting existing files
+PASS Trash, restore and permanent deletion
+PASS Rejects invalid file identifiers
+PASS Rejects unsafe ZIP entries without changing library
+PASS Corrupt backup hash failure rolls back copied files
+PASS Invalid course references cannot be committed
+PASS Local timestamps and deadline calendar dates survive serialization
+PASS Reserved Windows filenames are sanitized
+PASS Rejects path-bearing file extensions
+ALL 16 CHECKS PASSED
